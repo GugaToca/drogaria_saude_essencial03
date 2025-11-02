@@ -363,7 +363,7 @@ strong{font-weight:700}
 .quick-actions{position:relative}
 
 .checkout-form{
-  max-width: 380px; /* largura ideal */
+  max-width: 350px; /* largura ideal */
   margin: 0 auto;   /* centraliza */
   width: 100%;
   padding-inline: 8px;
