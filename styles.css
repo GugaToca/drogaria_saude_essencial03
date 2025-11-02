@@ -365,8 +365,8 @@ strong{font-weight:700}
 .checkout-form{
   max-width: 350px; /* largura ideal */
   margin: 0 auto;   /* centraliza */
-  width: 100%;
-  padding-inline: 8px;
+  width: 90%;
+  padding-inline: 2px;
   display: grid;
-  gap: 8px;
+  gap: 4px;
 }
