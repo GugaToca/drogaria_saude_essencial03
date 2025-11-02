@@ -363,8 +363,10 @@ strong{font-weight:700}
 .quick-actions{position:relative}
 
 .checkout-form{
-  max-width: 60px;
-  margin: -5px;
-  width: 60%;
-  padding-inline: 10px; /* um carinho nas laterais */
+  max-width: 380px; /* largura ideal */
+  margin: 0 auto;   /* centraliza */
+  width: 100%;
+  padding-inline: 8px;
+  display: grid;
+  gap: 8px;
 }
