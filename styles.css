@@ -25,7 +25,7 @@ a:hover{text-decoration:underline}
 strong{font-weight:700}
 
 .container{
-  width:min(1090px, 100%);  /*MEXE NO VALOR AQUI PARA ALTERAR A LARGURA MAXIMA DO SITE*/
+  width:min(1090px, 100%);  /*MEXE NO VALOR AQUI PARA alterar A LARGURA MAXIMA DO SITE*/
   margin-inline:auto;
   padding: clamp(12px, 2.5vw, 24px);
 }
@@ -366,7 +366,8 @@ strong{font-weight:700}
   max-width: 350px; /* largura ideal */
   margin: 0 auto;   /* centraliza */
   width: 90%;
-  padding-inline: 2px;
+  padding-inline: 1px;
+  margin: 0 auto 0 20px; /* empurra 40px para a direita */
   display: grid;
   gap: 4px;
 }
