@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Drogaria Essencial Saúde</title>
+  <meta name="description" content="Drogaria Essencial Saúde — rapidez, cuidado e preço justo. Entrega em até 2h na região." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Topbar -->
+  <div class="topbar" role="banner">
+    <div class="container">
+      <span>🚚 Entrega em até <strong>2h</strong> na região</span>
+      <span class="pill">PBM • Descontos em medicamentos</span>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-grid">
+      <a class="brand" href="#home" aria-label="Página inicial">
+        <img src="drogaria_essencial_saudesf.png" alt="Drogaria Essencial Saúde - logo">
+        <div class="brand-text">
+          <strong></strong>
+          <span></span>
+        </div>
+      </a>
+
+      <form class="search" role="search" aria-label="Buscar produtos">
+        <input id="search" type="search" placeholder="Busque por medicamentos, perfumaria, marcas…" autocomplete="off">
+        <button type="submit" aria-label="Buscar">Buscar</button>
+      </form>
+
+      <nav class="quick-actions" aria-label="Acessos rápidos">
+        <button class="icon-btn" data-action="whatsapp" title="Atendimento no WhatsApp" aria-label="WhatsApp">
+          💬
+        </button>
+        <button class="icon-btn" data-action="cart" title="Ver carrinho" aria-label="Carrinho">
+          🧺
+        </button>
+        <button class="icon-btn menu-toggle" title="Abrir menu" aria-label="Menu">
+          ☰
+        </button>
+      </nav>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container">
+        <ul class="nav-list" role="navigation" aria-label="Categorias">
+          <li><a href="#destaques">Destaques</a></li>
+          <li><a href="#medicamentos">Medicamentos</a></li>
+          <li><a href="#perfumaria">Perfumaria</a></li>
+          <li><a href="#infantil">Infantil</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1>Cuidar bem é essencial.</h1>
+        <p>Receba seus medicamentos sem sair de casa. Atendimento humano, preços justos e entrega ágil.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="https://wa.me/5517992077928" target="_blank" rel="noopener">Pedir no WhatsApp</a>
+          <a class="btn ghost" href="#destaques">Ver ofertas</a>
+        </div>
+        <ul class="hero-badges" aria-label="Diferenciais">
+          <li>✔️ Farmacêutico responsável</li>
+          <li>✔️ Descontos PBM</li>
+          <li>✔️ Retire na loja</li>
+        </ul>
+      </div>
+      <div class="hero-card">
+        <img class="hero-logo" src="drogaria_essencial_saudesf.png" alt="Marca Essencial Saúde">
+        <div class="hero-stats">
+          <div><span>2h</span><small>Entrega média</small></div>
+          <div><span>+1k</span><small>Itens no catálogo</small></div>
+          <div><span>PBM</span><small>Descontos ativos</small></div>
+        </div>
+      </div>
+    </div>
+    <div class="wave" aria-hidden="true"></div>
+  </section>
+
+  <!-- Destaques / Produtos -->
+  <main>
+    <section id="destaques" class="section">
+      <div class="container section-head">
+        <h2>Destaques da semana</h2>
+        <a class="link" href="#medicamentos">Ver tudo →</a>
+      </div>
+
+      <div class="container grid products" data-grid="products">
+        <!-- Cards de produto (exemplos) -->
+        <article class="card product" data-tags="analgésico medicamento dipirona">
+          <div class="tag">Oferta</div>
+          <h3>Dipirona 500mg 10 comprimidos</h3>
+          <p class="desc">Alívio de dores e febre. Uso adulto.</p>
+          <div class="price">
+            <span class="current">R$ 7,90</span>
+            <span class="old">R$ 10,90</span>
+          </div>
+          <button class="btn add-cart" data-product="Dipirona 500mg">Adicionar</button>
+        </article>
+
+        <article class="card product" data-tags="higiene perfumaria sabonete liquid">
+          <h3>Sabonete Líquido Neutro 250ml</h3>
+          <p class="desc">Limpeza suave para toda a família.</p>
+          <div class="price">
+            <span class="current">R$ 14,90</span>
+          </div>
+          <button class="btn add-cart" data-product="Sabonete Líquido">Adicionar</button>
+        </article>
+
+        <article class="card product" data-tags="vitamina suplemento c">
+          <div class="tag alt">PBM</div>
+          <h3>Vitamina C 500mg 60 cápsulas</h3>
+          <p class="desc">Sistema imunológico fortalecido.</p>
+          <div class="price">
+            <span class="current">R$ 29,90</span>
+          </div>
+          <button class="btn add-cart" data-product="Vitamina C">Adicionar</button>
+        </article>
+
+        <article class="card product" data-tags="infantil fralda higiene">
+          <h3>Fralda Conforto Mega</h3>
+          <p class="desc">Conforto e absorção prolongada.</p>
+          <div class="price">
+            <span class="current">R$ 59,90</span>
+          </div>
+          <button class="btn add-cart" data-product="Fralda Conforto Mega">Adicionar</button>
+        </article>
+      </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="section section-alt">
+      <div class="container section-head">
+        <h2>Serviços que facilitam sua vida</h2>
+      </div>
+
+      <div class="container grid services">
+        <article class="card service">
+          <h3>PBM • Programas de Desconto</h3>
+          <p>Aplicamos os principais programas de laboratório para você pagar menos no balcão.</p>
+          <a class="link" href="#contato">Consultar descontos →</a>
+        </article>
+
+        <article class="card service">
+          <h3>Entrega Rápida</h3>
+          <p>Peça pelo WhatsApp e receba em casa. Em média, <strong>até 2h</strong> na região.</p>
+          <a class="link" href="https://wa.me/5517992077928" target="_blank" rel="noopener">Chamar no Whats →</a>
+        </article>
+
+        <article class="card service">
+          <h3>Orientação Farmacêutica</h3>
+          <p>Tire dúvidas de uso e armazenamento com nosso farmacêutico responsável.</p>
+          <a class="link" href="#contato">Falar com a loja →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CTA WhatsApp -->
+    <section class="cta">
+      <div class="container cta-box">
+        <h3>Precisa agora?</h3>
+        <p>Atendemos por WhatsApp. Envie a receita ou foto do produto.</p>
+        <a class="btn primary large" href="https://wa.me/5517992077928" target="_blank" rel="noopener">Pedir no WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer id="contato" class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h4>Drogaria Essencial Saúde</h4>
+        <p>Rua Exemplo, 123 — Centro<br> Sua Cidade • SP</p>
+        <p><a class="link" href="tel:+5517992077928">(17) 99207-7928</a></p>
+      </div>
+      <div>
+        <h4>Horários</h4>
+        <ul class="list">
+          <li>Seg a Sex — 8h às 20h</li>
+          <li>Sábado — 8h às 18h</li>
+          <li>Domingo — 8h às 12h</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Políticas</h4>
+        <ul class="list">
+          <li><a href="#">Termos de uso</a></li>
+          <li><a href="#">Política de privacidade</a></li>
+          <li><a href="#">LGPD</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      © <span id="year"></span> Drogaria Essencial Saúde — Cuidar bem é essencial.
+    </div>
+  </footer>
+
+  <!-- Toast / Acessibilidade / Botões flutuantes -->
+  <div id="toast" class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+  <a class="fab whatsapp" href="https://wa.me/5517992077928" target="_blank" rel="noopener" aria-label="Fale no WhatsApp">💬</a>
+  <button class="fab to-top" aria-label="Voltar ao topo" title="Topo">↑</button>
+
+  <!-- Cart Drawer -->
+<div id="cartDrawer" class="drawer" aria-hidden="true">
+  <div class="drawer-panel" role="dialog" aria-label="Carrinho">
+    <header class="drawer-head">
+      <strong>Seu carrinho</strong>
+      <button id="closeCart" class="icon-x" aria-label="Fechar">×</button>
+    </header>
+
+    <div id="cartItems" class="drawer-body"></div>
+
+    <div class="drawer-foot">
+      <div class="sumline">
+        <span>Total</span>
+        <strong id="cartTotal">R$ 0,00</strong>
+      </div>
+
+      <form id="checkoutForm" class="checkout-form" autocomplete="on">
+        <input type="text" id="cliNome" placeholder="Seu nome completo" required>
+        <input type="text" id="cliEndereco" placeholder="Endereço (Rua, nº)" required>
+        <div class="row2">
+          <input type="text" id="cliBairro" placeholder="Bairro" required>
+          <input type="text" id="cliCidadeUF" placeholder="Cidade/UF" required>
+        </div>
+        <input type="text" id="cliCEP" placeholder="CEP" inputmode="numeric">
+        <select id="cliPagamento">
+          <option value="">Forma de pagamento (opcional)</option>
+          <option>Pix</option>
+          <option>Crédito</option>
+          <option>Débito</option>
+          <option>Dinheiro</option>
+        </select>
+        <textarea id="cliObs" rows="2" placeholder="Observações (opcional)"></textarea>
+
+        <button type="button" id="checkoutWhats" class="btn primary large">Finalizar no WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
