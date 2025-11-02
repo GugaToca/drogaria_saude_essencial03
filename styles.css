@@ -346,7 +346,7 @@ strong{font-weight:700}
 .cart-price{font-weight:700; color:var(--azul)}
 .drawer-foot{border-top:1px solid rgba(0,0,0,.06); padding:12px}
 .sumline{display:flex; justify-content:space-around; align-items:center; margin-bottom:8px}
-.checkout-form{display:grid; gap:8px}
+.checkout-form{display:contents; gap:8px}
 .checkout-form .row2{display:grid; grid-template-columns:2fr 2fr; gap:8px}
 .checkout-form input, .checkout-form select, .checkout-form textarea{
   border:1px solid rgba(0,0,0,.12); border-radius:30px; padding:.4rem .4rem; font:menu
